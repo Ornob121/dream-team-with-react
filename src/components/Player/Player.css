@@ -1,0 +1,38 @@
+.player-container img {
+  height: 250px;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.role-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.player-container {
+  border: 1px solid slategray;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.player-container button {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid red;
+  color: white;
+  background-color: gold;
+  border-radius: 5px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+
+.player-container button:hover {
+  background-color: green;
+  border: 2px solid gold;
+}

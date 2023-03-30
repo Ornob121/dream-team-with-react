@@ -1,0 +1,11 @@
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.player-div-selected {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
